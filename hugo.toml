@@ -1,0 +1,44 @@
+baseURL = '/'
+buildDrafts = false
+languageCode = 'en-us'
+defaultContentLanguage = 'en'
+title = 'SRE Dojo'
+theme = 'm10c'
+# copyright = ''
+
+[params]
+  author = 'SRE Dojo'
+  avatar = 'img/sre_dojo_logo_2023_vertical_transparent.png'
+  #description = ''
+
+[params.style]
+  darkestColor = "#1B334C"
+  darkColor = "#57728C"
+  lightColor = "#c0d4e4"
+  lightestColor = "#d8eaef"
+  primaryColor = "#eba61a"
+
+[[params.social]]
+  icon = "linkedin"
+  name = "My linkedIn"
+  url = "https://www.linkedin.com/in/ttarando/"
+
+[menu]
+
+    [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+    [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
+
+    [[menu.main]]
+    identifier = "about_me"
+    name = "About us"
+    url = "/about/"
+    weight = 30
