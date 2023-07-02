@@ -1,0 +1,54 @@
+
+  a {
+    color: $primary-color;
+    transition: color 0.35s;
+    text-decoration: none;
+  
+    &:hover {
+        color: #f26625;
+    }
+  }
+
+  .app-header-avatar {
+    width: auto;
+    height: 15rem;
+    border-radius: 0%;
+    border: 0rem;
+    padding-bottom: 2rem;
+  }
+
+  .app-container a {
+    color: #92e0ff;
+    transition: color 0.35s;
+    text-decoration: none;
+  
+    &:hover {
+      color: #8fbce7;
+    }
+  }
+
+  .app-header-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: $lightest-color;
+    position: absolute;
+    bottom: 1rem;
+    width: 70%;
+  
+    a:not(:last-child) {
+      margin-right: 0.4em;
+    }
+  }
+
+  .posts-list-item-description {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    color: #a0b1be;
+  
+    > .icon {
+      margin-right: 0.4em;
+    }
+  }
